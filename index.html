@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="stylesheets/bootstrap.css" rel="stylesheet">
+        <link href="stylesheets/custom.css" rel="stylesheet">
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src='index.js'></script>
+
+        <title>Calculadora Simples</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <h2>Calculadora simples</h2>
+
+                    <div class="form-group">
+                        <input type="text" name="n1" class="form-control" placeholder="Informe o primeiro valor">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="n2" class="form-control" placeholder="Informe o segundo valor">
+                    </div>
+
+                    <div class="form-group text-right">
+                        <a class="btn btn-primary" id='soma'>+</a>
+                        <a class="btn btn-primary" id='subtracao'>-</a>
+                        <a class="btn btn-primary" id='multiplicacao'>x</a>
+                        <a class="btn btn-primary" id='divisao'>/</a>
+                    </div>
+
+                    <div class="panel panel-success">
+                        <div class="panel-heading">Resultado</div>
+                        <div class="panel-body">
+                            <p class='text-success text-center result'>
+                                <?php include "operacoes.php" ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+body {
+	font-family: Verdana;
+	margin-top: 40px;
+}
+
+.btn-primary {
+	font-size: 20px;
+	font-weight: bolder;
+	width: 40px;
+}
+
+.panel {
+	font-weight: bold;
+}
+
+.panel-heading {
+	font-size: 20px;
+}
+
+.panel-body {
+	font-size: 28px;
+}
